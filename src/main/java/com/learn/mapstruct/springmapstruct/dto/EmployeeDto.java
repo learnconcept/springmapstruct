@@ -1,8 +1,5 @@
 package com.learn.mapstruct.springmapstruct.dto;
 
-import java.util.List;
-
-
 import lombok.Getter;
 import lombok.Setter;
 
@@ -16,6 +13,4 @@ public class EmployeeDto {
 	private String gender;
 	private String dob;
 	private int desk;
-	private List<Address> empAddrList;
-
 }
